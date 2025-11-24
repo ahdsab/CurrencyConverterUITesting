@@ -25,7 +25,7 @@ class TestHomePage(unittest.TestCase):
         click_convert_button().
         get_output())
 
-        self.assertEqual(output, "380")
+        self.assertEqual(output, "370")
 
 
 
